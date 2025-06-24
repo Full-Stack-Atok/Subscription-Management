@@ -13,6 +13,7 @@ export const {
   ARCJET_ENV,
   QSTASH_TOKEN,
   QSTASH_URL,
+  EMAIL_PASSWORD,
 } = process.env;
 
 console.log(`⚙️  NODE_ENV=${NODE_ENV}, ARCJET_ENV=${ARCJET_ENV}`);
